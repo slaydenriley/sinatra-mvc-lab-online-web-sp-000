@@ -2,7 +2,7 @@ require_relative 'config/environment'
 require_relative 'models/piglatinzer'
 
 class App < Sinatra::Base
-  get '/user_input' do
+  get '/' do
     erb :user_input
   end
 
